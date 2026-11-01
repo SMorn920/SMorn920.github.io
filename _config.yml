@@ -1,5 +1,12 @@
 
-title: 我的秘密花园
-description: 记录生活、书影音与日常思考
+title: "Welcome to a Serene Morning"
+description: "Spirit of my Silence I can Hear you."
 lang: zh-CN
+
 theme: minima
+show_excerpts: true
+
+header_pages:
+  - journal.md
+  - culture.md
+  - clinical.md
