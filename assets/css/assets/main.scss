@@ -1,0 +1,66 @@
+---
+---
+
+@import "minima";
+
+/* 整体背景与文字 */
+body {
+  background-color: #F6F2E9;
+  color: #35352F;
+  font-family: Georgia, "Songti SC", "Noto Serif CJK SC", serif;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* 网站标题 */
+.site-title,
+.site-title:visited {
+  color: #455541;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/* 文章标题 */
+.post-title {
+  color: #35352F;
+  font-size: 34px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+/* 正文标题 */
+.post-content h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* 链接 */
+a,
+a:visited {
+  color: #455541;
+}
+
+a:hover {
+  color: #78866B;
+}
+
+/* 页眉与页脚 */
+.site-header,
+.site-footer {
+  border-color: #D8D6C9;
+}
+
+/* 文章日期 */
+.post-meta {
+  color: #888779;
+}
+
+/* 首页文章列表 */
+.post-list-heading {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.post-link {
+  font-size: 23px;
+}
