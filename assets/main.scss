@@ -67,12 +67,12 @@ a:hover {
 
 /* Garden homepage */
 .garden-home { padding: 12px 0 24px; }
-.garden-intro { position: relative; padding: 48px 100px 48px 0; border-bottom: 1px solid #d8d6c9; }
+.garden-intro { position: relative; padding: 48px 190px 48px 0; border-bottom: 1px solid #d8d6c9; }
 .garden-kicker,.path-number,.garden-section-head span { font-family: Georgia, serif; font-size: 11px; letter-spacing: .16em; color: #7b806e; }
 .garden-intro h1 { font-size: clamp(27px, 4vw, 38px); font-weight: 400; line-height: 1.5; letter-spacing: .04em; }
 .garden-subtitle { color: #67725d; font-size: 19px; font-style: italic; }
 .garden-note { color: #777365; margin-top: 24px; }
-.garden-sprig { position: absolute; right: 0; top: 30px; width: 95px; height: 170px; color: #889174; opacity: .75; }
+.garden-sprig { position: absolute; right: 0; top: 30px; width: 165px; height: 265px; color: #889174; opacity: .75; }
 .garden-paths { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; margin: 36px 0 52px; }
 .garden-paths a { display: block; padding: 22px 16px; border: 1px solid #dad8ca; border-radius: 3px; background: #f1eee3; text-decoration: none; transition: background .2s; }
 .garden-paths a:hover { background: #e8eadc; color: #455541; }
@@ -92,9 +92,12 @@ a:focus-visible { outline: 2px solid #67725d; outline-offset: 5px; }
 @media (max-width: 600px) {
  .site-title { font-size: 19px; }
  .garden-intro { padding: 30px 0; }
- .garden-sprig { width: 45px; height: 75px; top: 0; opacity: .45; }
+ .garden-sprig { position: relative; float: right; width: 76px; height: 125px; top: auto; margin: 0 0 12px 16px; opacity: .65; }
  .garden-intro h1 { padding-top: 18px; }
  .garden-paths { grid-template-columns: 1fr; gap: 12px; }
  .garden-paths p { min-height: 0; }
  .garden-posts li { grid-template-columns: 1fr; gap: 4px; }
 }
+
+.site-footer { text-align: center; }
+.site-footer p { margin: 0; color: #888779; font-size: 14px; font-style: italic; }
