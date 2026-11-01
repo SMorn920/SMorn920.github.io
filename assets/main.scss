@@ -64,3 +64,37 @@ a:hover {
 .post-link {
   font-size: 23px;
 }
+
+/* Garden homepage */
+.garden-home { padding: 12px 0 24px; }
+.garden-intro { position: relative; padding: 48px 100px 48px 0; border-bottom: 1px solid #d8d6c9; }
+.garden-kicker,.path-number,.garden-section-head span { font-family: Georgia, serif; font-size: 11px; letter-spacing: .16em; color: #7b806e; }
+.garden-intro h1 { font-size: clamp(27px, 4vw, 38px); font-weight: 400; line-height: 1.5; letter-spacing: .04em; }
+.garden-subtitle { color: #67725d; font-size: 19px; font-style: italic; }
+.garden-note { color: #777365; margin-top: 24px; }
+.garden-sprig { position: absolute; right: 0; top: 30px; width: 95px; height: 170px; color: #889174; opacity: .75; }
+.garden-paths { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; margin: 36px 0 52px; }
+.garden-paths a { display: block; padding: 22px 16px; border: 1px solid #dad8ca; border-radius: 3px; background: #f1eee3; text-decoration: none; transition: background .2s; }
+.garden-paths a:hover { background: #e8eadc; color: #455541; }
+.garden-paths h2 { font-weight: 400; font-size: 23px; margin: 14px 0 8px; }
+.garden-paths p { font-size: 13px; color: #777365; min-height: 50px; }
+.garden-paths a > span:last-child { font-size: 13px; }
+a:focus-visible { outline: 2px solid #67725d; outline-offset: 5px; }
+.garden-section-head { display: flex; align-items: baseline; justify-content: space-between; border-bottom: 1px solid #d8d6c9; gap: 12px; }
+.garden-section-head h2 { font-size: 23px; font-weight: 400; }
+.garden-posts { list-style: none; margin: 0; }
+.garden-posts li { display: grid; grid-template-columns: 100px 1fr; gap: 15px; padding: 24px 0; border-bottom: 1px solid #e1ded2; }
+.garden-posts time { font-size: 12px; color: #888779; padding-top: 5px; }
+.garden-posts a { font-size: 21px; }
+.garden-excerpt { font-size: 14px; color: #777365; margin-top: 8px; }
+.garden-feed { display: inline-block; margin-top: 18px; font-size: 13px; }
+.garden-closing { text-align: center; color: #888779; font-size: 14px; margin: 60px 0 15px; }
+@media (max-width: 600px) {
+ .site-title { font-size: 19px; }
+ .garden-intro { padding: 30px 0; }
+ .garden-sprig { width: 45px; height: 75px; top: 0; opacity: .45; }
+ .garden-intro h1 { padding-top: 18px; }
+ .garden-paths { grid-template-columns: 1fr; gap: 12px; }
+ .garden-paths p { min-height: 0; }
+ .garden-posts li { grid-template-columns: 1fr; gap: 4px; }
+}
